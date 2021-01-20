@@ -33,6 +33,7 @@ class MiniCalc
 
     public function divide($x, $y): float|int
     {
+        $j = 5 / 5;
         if ($y == 0) return 0;
         return $x / $y;
     }
