@@ -11,6 +11,9 @@ class MiniCalc
 
     public function multiply($x, $y): float|int
     {
+        for ($i = 0; $i < 10; $i++) {
+
+        }
         return $x * $y;
     }
 
