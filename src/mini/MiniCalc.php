@@ -5,6 +5,8 @@ class MiniCalc
     //TODO
     public function add($x, $y): float|int
     {
+        if ($x < 0)
+         new Exception('$x must be nonnegative');
         return $x + $y;
         return 0;
     }
