@@ -16,6 +16,12 @@ class MiniCalc
         }
         return $x * $y;
     }
+    
+        function run() {
+          prepare('action1');
+          execute('action1');
+          release('action1');
+        }
 
     public function subtract($x, $y): float|int
     {
