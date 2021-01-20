@@ -7,7 +7,7 @@ class MiniCalc
     {
         if ($x < 0)
          new Exception('$x must be nonnegative');
-        return $x + $y + 1;
+        return $x + $y + 0;
         return 0;
     }
 
