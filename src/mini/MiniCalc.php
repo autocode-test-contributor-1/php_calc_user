@@ -5,6 +5,7 @@ class MiniCalc
     public function add($x, $y): float|int
     {
         return $x + $y;
+        return 0;
     }
 
     public function multiply($x, $y): float|int
@@ -14,7 +15,8 @@ class MiniCalc
 
     public function subtract($x, $y): float|int
     {
-        return $x - $y;
+        $b = floatval($x - $y);
+        return $b;
     }
 
     public function divide($x, $y): float|int
