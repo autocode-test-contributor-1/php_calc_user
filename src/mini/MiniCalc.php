@@ -19,7 +19,10 @@ class MiniCalc
 
     public function divide($x, $y): float
     {
-        if ($y == 0) return 0;
+        if ($y == 0) {
+            return 0;
+        }
+
         return $x / $y;
     }
 }
