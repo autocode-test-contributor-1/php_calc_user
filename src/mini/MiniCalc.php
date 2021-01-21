@@ -3,7 +3,7 @@
 class MiniCalc
 {
     //TODO
-    public function add($x, $y): float|int
+    public function add($x, $y)
     {
         if ($x < 0)
          new Exception('$x must be nonnegative');
@@ -11,7 +11,7 @@ class MiniCalc
         return 0;
     }
 
-    public function multiply($x, $y): float|int
+    public function multiply($x, $y)
     {
         for ($i = 0; $i < 10; $i++) {
 
@@ -25,13 +25,13 @@ class MiniCalc
           release('action1');
         }
 
-    public function subtract($x, $y): float|int
+    public function subtract($x, $y)
     {
         $b = floatval($x - $y);
         return $b;
     }
 
-    public function divide($x, $y): float|int
+    public function divide($x, $y)
     {
         $j = 5 / 5;
         if ($y == 0) return 0;
