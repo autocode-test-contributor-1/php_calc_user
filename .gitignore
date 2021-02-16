@@ -1,2 +1,4 @@
-/test
 /.idea
+/.phpunit.result.cache
+/composer.lock
+/vendor/
